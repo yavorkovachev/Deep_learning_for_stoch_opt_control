@@ -18,7 +18,7 @@ $$
 \end{align}
 $$
 
-An additional complication is posed by the approximation of an ODE embedded in a $\min$ operator. This ODE is used to track the binding constraints in the stochastic optimal control problem from which the PDES above are derived, and is given by 
+An additional complication is posed by the approximation of an ODE embedded in a $\min$ operator. This ODE is used to track the binding constraints in the stochastic optimal control problem from which the PDEs above are derived, and is given by 
 
 $$
 \begin{align}
@@ -26,7 +26,9 @@ $$
 \end{align}
 $$
 
-Its solution is also estimated with a deep nueral network. The notebook provides further explanations, code implementation and a comparison with a solution based on finite difference methods.
+Its solution is also estimated with a deep nueral network. 
+
+The notebook provides further explanations, code implementation and a comparison with a solution based on finite difference methods.
 
 ## Installing/Replication
 The easiest/most convenient way to run the code is to download the `Financial_frictions` folder into your Google drive and run the `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook on Google `Colab`. Alternatively, if you have access to a GPU and have `TensorFlow` installed you can run on your local machine.
