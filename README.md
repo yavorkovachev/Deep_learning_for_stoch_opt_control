@@ -30,7 +30,7 @@ Its solution is also estimated with a deep nueral network.
 
 The notebook provides further explanations, derivations, code implementation and a comparison with a solution based on finite difference methods.
 
-* **The main result showcased in the notebook is that DNNs approximate the solutions of the two high-dimensional non-linear PDEs (HJBEs) and the ODE above with the same level of accuracy as finite difference methods (FMDs) but in a significantly faster time: 10 minutes and 42 seconds for DNNs vs 3hours and 42 minnutes for FDMs which is a speedup of more than x20.**  
+* **The main result showcased in the notebook is that DNNs approximate the solutions of the two high-dimensional non-linear PDEs (HJBEs) and the ODE above with the same level of accuracy as finite difference methods (FMDs) but in a significantly faster time: 10 minutes and 42 seconds for DNNs vs 3hours and 42 minutes for FDMs which constitutes a speedup of more than x20.**  
 
 ## Installing/Replication
 The easiest/most convenient way to run the code is to download the `Financial_frictions` folder into your Google drive and run the `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook on Google `Colab`. Alternatively, if you have access to a GPU and have `TensorFlow` installed you can run on your local machine.
