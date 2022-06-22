@@ -1,6 +1,6 @@
 # Deep learning for stochastic optimal control
 
-The `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook in the `Financial_frictions` folder shows how to apply deep neural networks (DNNs) to solve stochastic optimal control problems arising from economic models of financial frictions. Solving such models boils down to finding approximations of high dimensional non-linear PDEs (more commonly referred to as Hamilton-Jacobi-Bellman equations (HJBEs) in the field of stochastic optimal control). In the notebook, these approximations are obtained using deep nueral networks. More precisely, the `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook illustrates how to solve a 3 dimensional model of financial frictions where the HJBEs (alternatively PDEs) for two types of agents, households indexed by $h$ and experts indexed by $e$, are given by 
+The `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook in the `Financial_frictions` folder shows how to apply deep neural networks (DNNs) to solve stochastic optimal control problems arising from economic models of financial frictions. Solving such models boils down to finding approximations of high dimensional non-linear PDEs (more commonly referred to as Hamilton-Jacobi-Bellman equations (HJBEs) in the field of stochastic optimal control). In the notebook, these approximations are obtained using deep neural networks. More precisely, the `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook illustrates how to solve a 3 dimensional model of financial frictions where the HJBEs (alternatively PDEs) for two types of agents, households indexed by $h$ and experts indexed by $e$, are given by 
 
 $$
 \begin{align}
@@ -26,7 +26,7 @@ $$
 \end{align}
 $$
 
-Its solution is also estimated with a deep nueral network. 
+Its solution is also estimated with a deep neural network. 
 
 The notebook provides further explanations, derivations, code implementation and a comparison with a solution based on finite difference methods.
 
