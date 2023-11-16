@@ -35,4 +35,4 @@ The notebook provides further explanations, derivations, code implementation and
 ## Installing/Replication
 The easiest/most convenient way to run the code is to download the `Financial_frictions` folder into your Google drive and run the `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook on Google `Colab`. Alternatively, if you have access to a GPU and `TensorFlow` and installed in a virtual environment you can run on your local machine.
 
-The `plotly` 3D surface plots of the solutions are displayed when you click the Colab notebook link in the top left corner of the `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook.
+To view interactive 3D surface plots of the equilibrium value functions, risk prices, price of capital, interest rates etc. click the Colab notebook link in the top left corner of the `Deep_Learning_for_Stoch_Opt_Control.ipynb` notebook.
